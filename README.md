@@ -11,7 +11,8 @@ The assembly and design of the main keyboard is greatly simplified as a result.
 - (TODO) Single path grounding support.
 
 ## Photos
-(TODO)
+![alt text](https://github.com/rothman5/usbc-daughter-board/blob/c97103dfde8c70be1457c372696d8910cc421555/images/front-preview.png)
+![alt text](https://github.com/rothman5/usbc-daughter-board/blob/c97103dfde8c70be1457c372696d8910cc421555/images/back-preview.png)
 
 ## References
 - ST [TA0357](https://www.st.com/resource/en/technical_article/dm00496853-overview-of-usb-type-c-and-power-delivery-technologies-stmicroelectronics.pdf) power delivery article
