@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "Connector-Generic")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/symbols/Connector-Generic.kicad_sym")(options "")(descr ""))
+  (lib (name "Connector-USB-C")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/symbols/Connector-USB-C.kicad_sym")(options "")(descr ""))
+  (lib (name "Device")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/symbols/Device.kicad_sym")(options "")(descr ""))
+  (lib (name "Mechanical")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/symbols/Mechanical.kicad_sym")(options "")(descr ""))
+  (lib (name "Power")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/symbols/Power.kicad_sym")(options "")(descr ""))
+  (lib (name "Power-Protection")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/symbols/Power-Protection.kicad_sym")(options "")(descr ""))
+)

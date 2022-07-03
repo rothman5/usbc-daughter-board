@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\kicad-workspace\usbc-daughter-board\pcb\usbc-daughter-board.kicad_sch</source>
+    <date>2022-07-03 5:43:19 AM</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB Type C Daughter Board</title>
+        <company>rothman</company>
+        <rev>1.0</rev>
+        <date>2022-07-03</date>
+        <source>usbc-daughter-board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>C-0603</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C14663</field>
+        <field name="LCSC Part Number">C14663</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Manufacturer Part #">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer Part Number">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="LCSC Part Number" value="C14663"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Manufacturer Part Number" value="CC0603KRX7R9BB104"/>
+      <property name="JLCPCB Part #" value="C14663"/>
+      <property name="Manufacturer Part #" value="CC0603KRX7R9BB104"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbc-daughter-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1822eb9c-1fb7-4649-a16e-30b571c7712a</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>F-0603</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C883095</field>
+        <field name="LCSC Part Number">C883095</field>
+        <field name="Manufacturer">BHFUSE</field>
+        <field name="Manufacturer Part #">BSMD0603-050-6V</field>
+        <field name="Manufacturer Part Number">BSMD0603-050-6V</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <property name="LCSC Part Number" value="C883095"/>
+      <property name="Manufacturer" value="BHFUSE"/>
+      <property name="Manufacturer Part Number" value="BSMD0603-050-6V"/>
+      <property name="JLCPCB Part #" value="C883095"/>
+      <property name="Manufacturer Part #" value="BSMD0603-050-6V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbc-daughter-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca7ef982-6b8a-4546-9694-b1b1f152c28f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USBC FS 2.0</value>
+      <footprint>TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C165948</field>
+        <field name="LCSC Part Number">C165948</field>
+        <field name="Manufacturer">Korean Hroparts Elec</field>
+        <field name="Manufacturer Part #">TYPE-C-31-M-12</field>
+        <field name="Manufacturer Part Number">TYPE-C-31-M-12</field>
+      </fields>
+      <libsource lib="Connector-USB-C" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="LCSC Part Number" value="C165948"/>
+      <property name="Manufacturer" value="Korean Hroparts Elec"/>
+      <property name="Manufacturer Part Number" value="TYPE-C-31-M-12"/>
+      <property name="JLCPCB Part #" value="C165948"/>
+      <property name="Manufacturer Part #" value="TYPE-C-31-M-12"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbc-daughter-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3517be73-1746-4fcb-81f1-f84ed2aec9a4</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JST1x04</value>
+      <footprint>SM04B-GHS-TB</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C189895</field>
+        <field name="LCSC Part Number">C189895</field>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="Manufacturer Part #">SM04B-GHS-TB(LF)(SN)</field>
+        <field name="Manufacturer Part Number">SM04B-GHS-TB(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector-Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC Part Number" value="C189895"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="Manufacturer Part Number" value="SM04B-GHS-TB(LF)(SN)"/>
+      <property name="JLCPCB Part #" value="C189895"/>
+      <property name="Manufacturer Part #" value="SM04B-GHS-TB(LF)(SN)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbc-daughter-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86aced44-f1bd-45e3-9a4c-58848e0526e7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1R</value>
+      <footprint>R-0603</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C23186</field>
+        <field name="LCSC Part Number">C23186</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part #">0603WAF5101T5E</field>
+        <field name="Manufacturer Part Number">0603WAF5101T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part Number" value="C23186"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0603WAF5101T5E"/>
+      <property name="JLCPCB Part #" value="C23186"/>
+      <property name="Manufacturer Part #" value="0603WAF5101T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbc-daughter-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>236910b8-b510-4ea8-85bb-2ec6061061c1</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1R</value>
+      <footprint>R-0603</footprint>
+      <fields>
+        <field name="JLCPCB Part #">C23186</field>
+        <field name="LCSC Part Number">C23186</field>
+        <field name="Manufacturer">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Manufacturer Part #">0603WAF5101T5E</field>
+        <field name="Manufacturer Part Number">0603WAF5101T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="LCSC Part Number" value="C23186"/>
+      <property name="Manufacturer" value="UNI-ROYAL(Uniroyal Elec)"/>
+      <property name="Manufacturer Part Number" value="0603WAF5101T5E"/>
+      <property name="JLCPCB Part #" value="C23186"/>
+      <property name="Manufacturer Part #" value="0603WAF5101T5E"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbc-daughter-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db13602b-24c4-4bbc-a9d8-42567fd8de11</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>USBLC6-2SC6</value>
+      <footprint>SOT-23-6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part #">C2687116</field>
+        <field name="LCSC Part Number">C2687116</field>
+        <field name="Manufacturer">UMW(Youtai Semiconductor Co., Ltd.)</field>
+        <field name="Manufacturer Part #">USBLC6-2SC6</field>
+        <field name="Manufacturer Part Number">USBLC6-2SC6</field>
+      </fields>
+      <libsource lib="Power-Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="LCSC Part Number" value="C2687116"/>
+      <property name="Manufacturer" value="UMW(Youtai Semiconductor Co., Ltd.)"/>
+      <property name="Manufacturer Part Number" value="USBLC6-2SC6"/>
+      <property name="JLCPCB Part #" value="C2687116"/>
+      <property name="Manufacturer Part #" value="USBLC6-2SC6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="usbc-daughter-board.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4949f5e2-c1cf-4e24-b8f7-680ef01d2147</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector-Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector-USB-C" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power-Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector-Generic">
+      <uri>D:/kicad-workspace/usbc-daughter-board/libs/symbols/Connector-Generic.kicad_sym</uri>
+    </library>
+    <library logical="Connector-USB-C">
+      <uri>D:/kicad-workspace/usbc-daughter-board/libs/symbols/Connector-USB-C.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:/kicad-workspace/usbc-daughter-board/libs/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>D:/kicad-workspace/usbc-daughter-board/libs/symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Power-Protection">
+      <uri>D:/kicad-workspace/usbc-daughter-board/libs/symbols/Power-Protection.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CON_CC1">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/CON_CC2">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/CON_USB_D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="4" name="/CON_USB_D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="1" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="5" name="/CON_VBUS">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="6" name="/JST_USB_D+">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="I/O2" pintype="passive"/>
+    </net>
+    <net code="7" name="/JST_USB_D-">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="I/O1" pintype="passive"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="9" name="VBUS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VBUS" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(J1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(J1-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J1-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

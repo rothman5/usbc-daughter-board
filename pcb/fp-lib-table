@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "capacitors")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/footprints/capacitors.pretty")(options "")(descr ""))
+  (lib (name "connectors")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/footprints/connectors.pretty")(options "")(descr ""))
+  (lib (name "fuses")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/footprints/fuses.pretty")(options "")(descr ""))
+  (lib (name "mechanical")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/footprints/mechanical.pretty")(options "")(descr ""))
+  (lib (name "packages")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/footprints/packages.pretty")(options "")(descr ""))
+  (lib (name "resistors")(type "KiCad")(uri "D:/kicad-workspace/usbc-daughter-board/libs/footprints/resistors.pretty")(options "")(descr ""))
+)
