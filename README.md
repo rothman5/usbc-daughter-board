@@ -14,8 +14,8 @@ This board uses [ai03's Unified Daughterboard](https://github.com/ai03-2725/Unif
 
 
 ## Photos
-![alt text](https://github.com/rothman5/usbc-daughter-board/blob/c97103dfde8c70be1457c372696d8910cc421555/images/front-preview.png)
-![alt text](https://github.com/rothman5/usbc-daughter-board/blob/c97103dfde8c70be1457c372696d8910cc421555/images/back-preview.png)
+![alt text](https://github.com/rothman5/usbc-daughter-board/blob/e23a5fce51890610b72a5b0f3143a3a9a6484dd7/images/front.png)
+![alt text](https://github.com/rothman5/usbc-daughter-board/blob/e23a5fce51890610b72a5b0f3143a3a9a6484dd7/images/back.png)
 
 
 ## References
